@@ -12,3 +12,5 @@ lxml==4.4.2
 holidays==0.9.12
 pdfminer==20191125
 mongoengine==0.19.1
+paramiko==2.7.1
+APScheduler==3.6.3
