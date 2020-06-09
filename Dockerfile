@@ -8,7 +8,7 @@ WORKDIR /storage/wwwroot
 COPY requirements.txt /storage/wwwroot
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN useradd -u 2000 worker
+RUN useradd -u 1000 worker
 USER worker
 
 ENTRYPOINT  ["/storage/wwwroot/worker.sh"]
